@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <style>
+        body {
+            background-color: #800080; /* Roxo */
+            text-align: center;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .carousel {
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+        }
+        .carousel img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            animation: spin 10s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img src="https://drive.google.com/uc?export=view&id=13ZS3jbRcyyXSRXFm3uk5jjPYYC91xeRn" alt="Foto 1">
+        <img src="https://drive.google.com/uc?export=view&id=13Wge2Jo6fm7YdH1UT32Ok44TZ-RXXL7g" alt="Foto 2">
+        <img src="https://drive.google.com/uc?export=view&id=13Z1mIuhHqu2gum9Qb_LLza0gBH0lRqdQ" alt="Foto 3">
+        <img src="https://drive.google.com/uc?export=view&id=13Z1mIuhHqu2gum9Qb_LLza0gBH0lRqdQ" alt="Foto 4">
+    </div>
+    <p>Te amo, princesa</p>
+</body>
+</html>
+
